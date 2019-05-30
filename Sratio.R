@@ -14,7 +14,6 @@
 
 Sratio <- function(object) {
   #-- initialisation of needed matrices --#
-  #b = object$mat.c                   # Matrix with coefficients (nrow = number of variables, ncol = number of PCs)
   H = object$ncomp                    # H is number of latent variables (componements)      
   X = object$X                        # The preprocessed X-data
   scores  =  object$variates$Y        # Scores (t)
